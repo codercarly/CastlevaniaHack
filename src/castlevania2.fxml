@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="587.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CastlevaniaController">
+   <children>
+      <ScrollPane fx:id="gamePane" fitToWidth="true" hbarPolicy="NEVER" hmax="1000.0" layoutX="42.0" layoutY="116.0" pannable="true" prefHeight="397.0" prefWidth="503.0" vbarPolicy="NEVER">
+         <content>
+            <Group fx:id="attackItems">
+               <children>
+                  <ImageView fitHeight="395.0" fitWidth="554.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@CastlevaniaBackground2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="590.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@brick.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="395.0" fitWidth="656.0" layoutX="530.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@CastlevaniaBackground2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="590.0" layoutX="527.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@brick.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="395.0" fitWidth="656.0" layoutX="1054.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@CastlevaniaBackground2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="395.0" fitWidth="656.0" layoutX="1582.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@CastlevaniaBackground2T.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="395.0" fitWidth="656.0" layoutX="2113.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@CastlevaniaBackground2C.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="395.0" fitWidth="656.0" layoutX="2644.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@CastlevaniaBackground2C.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="395.0" fitWidth="656.0" layoutX="3175.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@CastlevaniaBackground2C.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="590.0" layoutX="527.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@brick.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="590.0" layoutX="1054.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@brick.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="590.0" layoutX="1581.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@brick.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="590.0" layoutX="2635.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@brick.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="590.0" layoutX="2108.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@brick.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="590.0" layoutX="3162.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@brick.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="torch2" fitHeight="131.0" fitWidth="133.0" layoutX="466.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@torch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="torch1" fitHeight="131.0" fitWidth="133.0" layoutX="237.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@torch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ghost1" fitHeight="112.0" fitWidth="114.0" layoutX="681.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ghost.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ghost2" fitHeight="112.0" fitWidth="114.0" layoutX="777.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ghost.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="torch3" fitHeight="131.0" fitWidth="133.0" layoutX="988.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@torch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="wolf1" fitHeight="131.0" fitWidth="158.0" layoutX="1119.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@wolf.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="torch4" fitHeight="131.0" fitWidth="133.0" layoutX="1295.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@torch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ghost3" fitHeight="112.0" fitWidth="114.0" layoutX="1552.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ghost.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ghost4" fitHeight="112.0" fitWidth="114.0" layoutX="1636.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ghost.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="littleTorch1" fitHeight="72.0" fitWidth="57.0" layoutX="1919.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@littletorch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="littleTorch2" fitHeight="72.0" fitWidth="57.0" layoutX="2108.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@littletorch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="littleTorch3" fitHeight="72.0" fitWidth="57.0" layoutX="2251.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@littletorch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ghost5" fitHeight="112.0" fitWidth="114.0" layoutX="2223.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ghost.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="littleTorch4" fitHeight="72.0" fitWidth="57.0" layoutX="2451.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@littletorch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="littleTorch5" fitHeight="72.0" fitWidth="57.0" layoutX="2616.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@littletorch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="littleTorch6" fitHeight="72.0" fitWidth="57.0" layoutX="2781.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@littletorch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="littleTorch8" fitHeight="72.0" fitWidth="57.0" layoutX="2982.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@littletorch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="littleTorch9" fitHeight="72.0" fitWidth="57.0" layoutX="3315.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@littletorch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="littleTorch7" fitHeight="72.0" fitWidth="57.0" layoutX="2881.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@littletorch.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="wolf2" fitHeight="131.0" fitWidth="158.0" layoutX="1959.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@wolf.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ghost6" fitHeight="112.0" fitWidth="114.0" layoutX="2328.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ghost.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ghost7" fitHeight="112.0" fitWidth="114.0" layoutX="2442.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@ghost.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="wolf3" fitHeight="131.0" fitWidth="158.0" layoutX="2746.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@wolf.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="wolf4" fitHeight="131.0" fitWidth="158.0" layoutX="3041.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@wolf.gif" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="gargoyle" fitHeight="248.0" fitWidth="269.0" layoutX="3343.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@gargoyle.gif" />
+                     </image>
+                  </ImageView>
+                  <Rectangle fx:id="torch1HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="280.0" layoutY="235.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="50.0" />
+                  <Rectangle fx:id="torch2HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="105.0" layoutX="513.0" layoutY="235.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="45.0" />
+                  <Rectangle fx:id="ghost1HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="700.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="65.0" />
+                  <Rectangle fx:id="ghost2HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="797.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="65.0" />
+                  <Rectangle fx:id="torch3HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="85.0" layoutX="1040.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="35.0" />
+                  <Rectangle fx:id="torch4HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="85.0" layoutX="1345.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="35.0" />
+                  <Rectangle fx:id="ghost3HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="85.0" layoutX="1565.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="75.0" />
+                  <Rectangle fx:id="ghost4HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="85.0" layoutX="1650.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="75.0" />
+                  <Rectangle fx:id="littleTorch1HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="75.0" layoutX="1925.0" layoutY="215.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="35.0" />
+                  <Rectangle fx:id="littleTorch2HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="75.0" layoutX="2125.0" layoutY="215.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="35.0" />
+                  <Rectangle fx:id="littleTorch3HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="75.0" layoutX="2265.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="35.0" />
+                  <Rectangle fx:id="ghost5HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="75.0" layoutX="2235.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="85.0" />
+                  <Rectangle fx:id="wolf1HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="73.0" layoutX="1129.0" layoutY="255.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="105.0" />
+                  <Rectangle fx:id="littleTorch4HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="60.0" layoutX="2468.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="23.0" />
+                  <Rectangle fx:id="littleTorch5HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="66.0" layoutX="2634.0" layoutY="214.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="20.0" />
+                  <Rectangle fx:id="littleTorch6HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="65.0" layoutX="2800.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="20.0" />
+                  <Rectangle fx:id="littleTorch8HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="59.0" layoutX="3002.0" layoutY="86.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="17.0" />
+                  <Rectangle fx:id="littleTorch9HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="70.0" layoutX="3331.0" layoutY="84.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="24.0" />
+                  <Rectangle fx:id="littleTorch7HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="59.0" layoutX="2902.0" layoutY="220.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="17.0" />
+                  <Rectangle fx:id="wolf2HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="55.0" layoutX="1967.0" layoutY="264.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="115.0" />
+                  <Rectangle fx:id="ghost6HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="95.0" layoutX="2343.0" layoutY="237.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="85.0" />
+                  <Rectangle fx:id="ghost7HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="95.0" layoutX="2457.0" layoutY="237.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="85.0" />
+                  <Rectangle fx:id="wolf3HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="68.0" layoutX="2752.0" layoutY="251.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="120.0" />
+                  <Rectangle fx:id="wolf4HitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="66.0" layoutX="3046.0" layoutY="258.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="113.0" />
+                  <Rectangle fx:id="gargoyleHitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="3386.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="200.0" />
+               	  <ImageView fitHeight="150.0" fitWidth="338.0" layoutX="1948.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../Desktop/Java%20SceneBuilder/FinalProject/gameover.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+         </content>
+      </ScrollPane>
+      
+      <Label layoutX="22.0" layoutY="9.0" text="SCORE" textFill="WHITE">
+         <font>
+            <Font name="Hiragino Sans W6" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="simon" fitHeight="106.0" fitWidth="101.0" layoutX="106.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@animatedSimonRight.gif" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="whipHitBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="160.0" layoutY="325.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="130.0" />
+      <Label layoutX="23.0" layoutY="40.0" text="PLAYER" textFill="WHITE">
+         <font>
+            <Font name="Hiragino Sans W6" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="71.0" text="ENEMY" textFill="WHITE">
+         <font>
+            <Font name="Hiragino Sans W6" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" layoutX="117.0" layoutY="9.0" text="00000" textFill="WHITE">
+         <font>
+            <Font name="Hiragino Sans W6" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="235.0" layoutY="8.0" text="TIME" textFill="WHITE">
+         <font>
+            <Font name="Hiragino Sans W6" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeLabel" layoutX="302.0" layoutY="8.0" text="0000" textFill="WHITE">
+         <font>
+            <Font name="Hiragino Sans W6" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="236.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@heart.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="heartsLabel" layoutX="278.0" layoutY="40.0" text="00" textFill="WHITE">
+         <font>
+            <Font name="Hiragino Sans W6" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="237.0" layoutY="72.0" text="P -" textFill="WHITE">
+         <font>
+            <Font name="Hiragino Sans W6" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="livesLabel" layoutX="278.0" layoutY="72.0" text="03" textFill="WHITE">
+         <font>
+            <Font name="Hiragino Sans W6" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="39.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="Hiragino Sans W6" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="102.0" fitWidth="195.0" layoutX="378.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@castlelogo1.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="playerHeath1" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="25.0" layoutX="134.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="playerHeath2" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="25.0" layoutX="146.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="playerHeath3" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="25.0" layoutX="158.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="playerHeath4" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="25.0" layoutX="170.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="playerHeath5" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="25.0" layoutX="182.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="playerHeath6" arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="25.0" layoutX="194.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="enemyHealth1" arcHeight="5.0" arcWidth="5.0" fill="#c33d3d" height="25.0" layoutX="134.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="enemyHealth2" arcHeight="5.0" arcWidth="5.0" fill="#c33d3d" height="25.0" layoutX="146.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="enemyHealth3" arcHeight="5.0" arcWidth="5.0" fill="#c33d3d" height="25.0" layoutX="158.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="enemyHealth4" arcHeight="5.0" arcWidth="5.0" fill="#c33d3d" height="25.0" layoutX="170.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="enemyHealth5" arcHeight="5.0" arcWidth="5.0" fill="#c33d3d" height="25.0" layoutX="182.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="enemyHealth6" arcHeight="5.0" arcWidth="5.0" fill="#c33d3d" height="25.0" layoutX="194.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+  	  <Rectangle fx:id="simonHurtBox" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="101.0" layoutX="125.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="60.0" />
+  	  
+   </children>
+</AnchorPane>
