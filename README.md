@@ -5,8 +5,8 @@ A hacked version of Konami's 1986 video game Castlevania using Java and Scene Bu
 
 # Final Project Goals
 - Work with a partner to create a game that implements a GUI using the JavaFX platform.
-- The project project proposal contained information about the game, its rules, and features.
-- The project project presentation demonstrated the rules of the game, how the code implements the rules, the GUI, and why features weren't implemented if they were proposed. 
+- The project proposal contained information about the game, its rules, and features.
+- The project presentation demonstrated the rules of the game, how the code implements the rules, the GUI, and why features weren't implemented if they were proposed. 
 - All code must be commented properly.
 - Use of external libraries or third-party tools was not permitted.
 - Code found on the internet could be used but only under certain conditions: it's not a complete or partial solution or it's a minor function in the overall scheme of things. All code must be commented with the web address of where it was found. (No external code was borrowed for this game.)
