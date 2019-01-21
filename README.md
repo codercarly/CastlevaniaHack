@@ -1,7 +1,7 @@
 # Castlevania Hacked
 A hacked version of Konami's 1986 video game Castlevania using Java and Scene Builder for CI245: Java Programming
 
-<img src="https://github.com/codercarly/CastlevaniaHack/blob/master/castlevaniahackdemo.gif" width="200">
+<img src="https://github.com/codercarly/CastlevaniaHack/blob/master/castlevaniahackdemo.gif" width="400">
 
 # Final Project Goals
 - Work with a partner to create a game that implements a GUI using the JavaFX platform.
