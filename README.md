@@ -25,7 +25,7 @@ A hacked version of Konami's 1986 video game Castlevania using Java and Scene Bu
 # Unimplemented Features
 - The enemy health bar for the final boss at the end of the game
 - The time counter
-(These features weren't implemented due to the time consuming process of making the object collision work properly. We decided that the collision was more important than those minor features, so that's what we focused on.)
+- (These features weren't implemented due to the time consuming process of making the object collision work properly. We decided that the collision was more important than those minor features, so that's what we focused on.)
 
 # Thoughts
 My partner and I truely enjoyed the process of making this game hack. We had a lot of great ideas that we wanted to implement (and still can, of course) but were very satisfied with what we had created after less than 2 weeks of work. There was very little support or guidance available online for game creation for JavaFX (and even less information for Scene Builder.) Most of what we read said it couldn't be done. 
